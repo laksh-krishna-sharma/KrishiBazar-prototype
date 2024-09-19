@@ -45,7 +45,7 @@ export default function Component() {
           <div className="lg:w-full sm:w-4/5 sm:px-4 sm:py-3 flex flex-col justify-center">
             {session ? (
               <div className="text-center">
-                <p className="text-gray-700 sm:text-sm">Signed in as {session.user.email}</p>
+                <p className="text-gray-700 sm:text-sm">Signed in as {}</p>
                 <button
                   onClick={handleSignOut}
                   className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-red-400 mt-4 lg:mt-6 sm:mt-2 sm:text-sm sm:py-2 sm:px-3"
