@@ -1,5 +1,5 @@
 "use client";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signOut } from "next-auth/react";
 import Image from "next/image";
 import hero from '@/app/_components/assets/sign-in-background.jpeg';
 import signimg from '@/app/_components/assets/sign-in.jpeg';
