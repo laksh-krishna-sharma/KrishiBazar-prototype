@@ -7,10 +7,6 @@ import signimg from '@/app/_components/assets/sign-in.jpeg';
 export default function Component() {
   const { data: session } = useSession();
 
-  const handleSignIn = () => {
-    signIn().catch((error) => console.error("Sign-in error:", error));
-  };
-
   const handleSignOut = () => {
     signOut().catch((error) => console.error("Sign-out error:", error));
   };
